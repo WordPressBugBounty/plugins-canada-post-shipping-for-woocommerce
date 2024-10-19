@@ -1,6 +1,6 @@
 === Canada Post Shipping For WooCommerce ===
 Contributors: smallfishes
-Tags: shipping, canada post, canada post shipping, shipping rates, woocommerce
+Tags: shipping, canada post, canada post shipping, canada post woocommerce, woocommerce
 Requires at least: 3.0.1
 Tested up to: 6.6
 Stable tag: trunk
@@ -10,16 +10,20 @@ Add Canada Post as a shipping option for your customers
 
 == Description ==
 
-Canada Post Shipping For WooCommerce is a plugin that adds support to WooCommerce for Canada Post. 
+Canada Post Shipping for WooCommerce is a powerful plugin that seamlessly integrates live Canada Post shipping options into your WooCommerce store.
 
-After installing the plugin your customers will have the option to choose Canada Post as a shipping method 
-during the checkout. The plugin automatically calculates both letter and parcel shipping rates for your customers 
-by using the weights you provide on each of your products.
+With this plugin, your customers can select shipping such as XpressPost as a shipping option. It automatically calculates shipping rates via the Canada Post API for both letters and parcels based on the weights you assign to each product, ensuring accurate pricing and improved customer experience.
 
-If you need help with the plugin please feel free to email at mike@smallfishanalytics.com.
+Key Features:
 
-More detailed instructions and help documents can be found on the 
-[Small Fish Analytics](http://www.smallfishanalytics.com/support) website.
+- Absolutely top notch support, we're here to help and want to hear from you!
+- Easy integration with WooCommerce.
+- Automatic calculation of Canada Post shipping rates.
+- Support for both letter and parcel shipping options.
+
+If you need assistance with the plugin, please don't hesitate to reach out to mike@smallfishanalytics.com.
+
+For detailed instructions and additional support documents, visit the [Small Fish Analytics](http://www.smallfishanalytics.com/support) website.
 
 == Installation ==
 
@@ -34,6 +38,10 @@ More detailed instructions and help documents can be found on the
 2. Shipping Quotes
 
 == Changelog ==
+
+= 2.9.17 =
+Declare support for WooComerce 9.3
+
 = 2.9.16 =
 Declare support for WooComerce 9.1 and WordPress 6.6
 
