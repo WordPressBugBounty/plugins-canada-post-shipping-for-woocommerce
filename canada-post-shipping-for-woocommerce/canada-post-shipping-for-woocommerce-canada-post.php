@@ -74,10 +74,8 @@ class Canada_Post_Shipping_For_WooCommerce_Canada_Post {
 			//Get the fuel surcharge for the shipment
 			if (isset($array['price-quote'][$i]['price-details']['adjustments'])) {
 				foreach ($array['price-quote'][$i]['price-details']['adjustments'] as $adjustment) {
-					foreach ($adjustment as $adjustment_detail) {
-						if (isset($adjustment_detail['adjustment-code']) && $adjustment_detail['adjustment-code'] == 'FUELSC') {
-							$rate['cost'] += $adjustment_detail['adjustment-cost'];
-						}
+					if (isset($adjustment['adjustment-code']) && $adjustment['adjustment-code'] == 'FUELSC') {
+						$rate['cost'] += $adjustment['adjustment-cost'];
 					}
 				}
 			}
