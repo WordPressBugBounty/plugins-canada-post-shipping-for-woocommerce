@@ -2,7 +2,7 @@
 Contributors: smallfishes
 Tags: shipping, canada post, canada post shipping, canada post woocommerce, woocommerce
 Requires at least: 3.0.1
-Tested up to: 6.8
+Tested up to: 6.9
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -38,6 +38,9 @@ For detailed instructions and additional support documents, visit the [Small Fis
 2. Shipping Quotes
 
 == Changelog ==
+
+= 2.9.20 =
+Declare support for WooCommerce 10.5 and WordPress 6.9
 
 = 2.9.19 =
 Declare support for WooCommerce 10.1 and WordPress 6.8

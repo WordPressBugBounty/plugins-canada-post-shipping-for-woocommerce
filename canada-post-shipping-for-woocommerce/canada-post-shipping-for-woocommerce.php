@@ -2,11 +2,11 @@
 /**
 * Plugin Name: Canada Post Shipping For WooCommerce
 * Description: Integrates with Canada Post allowing you to provide accurate shipping quotes for your customers.
-* Version: 2.9.19
+* Version: 2.9.20
 * Author: Small Fish Analytics Inc.
 * Author URI: http://www.smallfishanalytics.com/support?source=plugin_summary
 * WC requires at least: 3.0.0
-* WC tested up to: 10.1
+* WC tested up to: 10.5
 */
 
 /**
